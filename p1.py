@@ -1,6 +1,7 @@
 from tkinter import *
 window= Tk()
 window.title("Password Strength Checker")
+window.geometry("400x400")
 #Assigning what colour to display depending on length of the password, through one function
 def check_password_strength():
     password = entry.get()
